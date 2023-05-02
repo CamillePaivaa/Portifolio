@@ -1,0 +1,68 @@
+#fixo {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100px;
+}
+#site {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.corpoproje {
+  margin-top: 7%;
+  margin-left: 2%;
+  margin-right: 2%
+  
+}
+.nomeproj {
+
+  color: beige;
+  font-size: 25px;
+  width: 250px;
+  height: 55px;
+  background-color: #191970;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Secular One", sans-serif;
+}
+.descricaoproje {
+  font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 3%;
+  text-align: justify;
+}
+
+main {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+span {
+  font-size: x-large;
+}
+
+.swiper {
+  height: 500px;
+}
+
+.swiper-slide {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 450px) {
+  .swiper {
+    height: 270px;
+  }
+}

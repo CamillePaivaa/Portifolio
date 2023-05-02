@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.cabecalho {
+  background-color: #051014;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  column-gap: 3%;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 90px;
+  flex-wrap: wrap;
+}
+.cabecalho li {
+  font-size: 20px;
+  font-family: "Shantell Sans", cursive;
+  color: white;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #eaeaea;
+}
+a:hover {
+  color: #8a8af1;
+}
+a:active {
+  color: #8a8af1;
+}

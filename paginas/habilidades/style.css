@@ -1,0 +1,46 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.main-content {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  -moz-transition: all 0.1s;
+  -webkit-animation: all 1s;
+  transition: all 0.3s;
+  margin-top: 5%;
+}
+.container {
+  padding: 1%;
+}
+
+#titulohabilidades {
+  text-align: center;
+  margin-bottom: 7%;
+  font-size: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bolder;
+}
+
+.icones-container {
+  display: flex;
+  column-gap: 10px;
+  justify-content: center;
+  /* padding: 5%; */
+}
+.icone {
+  height: 115px;
+  width: 115px;
+  border: 2px solid black;
+  border-radius: 5%;
+  padding: 5%;
+}
+.icone:hover {
+  -moz-transition: scale(5.1);
+  -webkit-transform: scale(10.1);
+  transform: scale(1.1);
+}

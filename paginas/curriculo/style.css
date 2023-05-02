@@ -1,0 +1,50 @@
+body {
+  background-image: url(../../images/fundo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 2%;
+  background-color: #eaeaea;
+}
+.main-content {
+  display: flex;
+  min-height: 100vh;
+  padding-left: 20px;
+  align-items: center;
+}
+.corpo {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  align-items: center;
+}
+.frase {
+  font-family: "Mukta", sans-serif;
+  padding: 5%;
+}
+.botao {
+  font-family: "Secular One", sans-serif;
+  font-size: 20px;
+  padding: 15px 30px;
+  color: rgb(255, 255, 255);
+  border: 2px solid #051014;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  -moz-transition: all 0.1s;
+  -webkit-animation: all 1s;
+  transition: all 0.3s;
+}
+
+.botao:hover {
+  -moz-transition: scale(5.1);
+  -webkit-transform: scale(10.1);
+  transform: scale(1.1);
+}
+.cor {
+  background-color: #191970;
+}
+#clicemdowload:hover {
+  color: rgb(255, 255, 255);
+}
